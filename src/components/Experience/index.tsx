@@ -51,7 +51,7 @@ const Experience = () => {
         <ol className="items-center sm:flex">
           {EXPERIENCE.map((each, index) => {
             return (
-              <li className="relative mb-6 sm:mb-0">
+              <li key={index} className="relative mb-6 sm:mb-0">
                 <div className="flex items-center">
                   <div className="z-10 flex items-center justify-center w-24 h-24 bg-transparent-100 rounded-full  rounded-md ring-0 ring-white dark:bg-blue-900 sm:ring-8 shrink-0">
                     <Image src={each.logo} className="w-full h-full" alt="logo" />

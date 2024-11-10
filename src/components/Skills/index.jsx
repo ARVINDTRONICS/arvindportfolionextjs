@@ -30,7 +30,7 @@ const SKILLS = {
   },
 };
 
-const Skills = ({ backgroundColor, textColor }) => {
+const Skills = () => {
   return (
     <div id="skills" className="flex-column w-full justify-center rounded-lg bg-gray-50 my-12">
       <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">

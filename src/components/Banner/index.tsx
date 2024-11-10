@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import BannerImage from "../../../public/developer.webp";
 import Arvind from "../../../public/arvind2.png";
 
 interface BannerProps {
@@ -8,7 +7,7 @@ interface BannerProps {
   textColor?: string;
 }
 
-const Banner: React.FC<BannerProps> = ({ backgroundColor, textColor }) => {
+const Banner: React.FC<BannerProps> = () => {
   const titles = ["Software developer", "MERN Stack", "REACTJS PROFICIENT "];
   const [currentTitle, setTitle] = useState({
     text: titles[0],
@@ -30,9 +29,7 @@ const Banner: React.FC<BannerProps> = ({ backgroundColor, textColor }) => {
       }
     }, 4000);
 
-    console.log(id);
     return () => {
-      console.log(id, "cleared");
       clearTimeout(id);
     };
   }, [currentTitle]);
@@ -46,10 +43,9 @@ const Banner: React.FC<BannerProps> = ({ backgroundColor, textColor }) => {
         <h6 className=" text-xl my-4">📍 Dubai,United Arab Emirates</h6>
         <h6 className=" text-xl my-4 leading-loose">I enjoy the process of writing code that enhances the experience of humans behind the pixels.More importantly, I like the tingle that this process bring along to my day :)</h6>
       </div>
-      <div className="py-1" >
-     
-            <Image  src={Arvind} width="300" height="500" alt="dev"/>
-          
+      <div className="py-1">
+        <Image src={Arvind} width="300" height="500" alt="dev" />
+
         {/* <Image width={"650"} src={BannerImage} className="hidden md:block" alt="Developer" /> */}
       </div>
     </div>
