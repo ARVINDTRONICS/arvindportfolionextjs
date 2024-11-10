@@ -34,7 +34,7 @@ const Projects = () => {
                   </div>
                   <div className="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
                     <div className="absolute inset-x-5 bottom-0 top-10 overflow-hidden rounded-t-[6cqw] border-x-[2cqw] border-t-[3cqw] border-gray-700 bg-transparent shadow-2xl">
-                      <Image src={OLC} className="w-full h-full object-cover object-left bg-no-repeat" />
+                      <Image src={OLC} className="w-full h-full object-cover object-left bg-no-repeat"  alt="project"/>
                     </div>
                   </div>
                 </div>
@@ -55,7 +55,7 @@ const Projects = () => {
                     </p>
                   </div>
                   <div className="flex flex-1 justify-center items-center [container-type:inline-size] max-lg:py-6 lg:pb-2">
-                    <Image src={IBAA} width="300" height="100" />
+                    <Image src={IBAA} width="300" height="100" alt="project" />
                   </div>
                 </div>
                 <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5"></div>
@@ -71,7 +71,7 @@ const Projects = () => {
                     </p>
                   </div>
                   <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2 ">
-                    <Image className="w-full h-full object-contain object-left bg-no-repeat " src={OPS} alt="" />
+                    <Image className="w-full h-full object-contain object-left bg-no-repeat " src={OPS} alt="project" />
                   </div>
                 </div>
                 <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-t-[2rem]"></div>
@@ -92,7 +92,7 @@ const Projects = () => {
                   </div>
                   <div className="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
                     <div className="absolute inset-x-10 bottom-0 top-10 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-transparent shadow-2xl">
-                      <Image src={Jumeirah} className="w-full h-full object-cover object-left bg-no-repeat" />
+                      <Image src={Jumeirah} className="w-full h-full object-cover object-left bg-no-repeat" alt="project" />
                     </div>
                   </div>
                 </div>
@@ -107,7 +107,7 @@ const Projects = () => {
                   </div>
                   <div className="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
                     <div className="absolute inset-x-10 bottom-0 top-10 overflow-hidden rounded-t-[2cqw] border-x-[1cqw] border-t-[1cqw] border-gray-700 bg-transparent shadow-2xl">
-                      <Image src={Travel} className="w-full h-full object-full object-left bg-no-repeat" />
+                      <Image src={Travel} className="w-full h-full object-full object-left bg-no-repeat" alt="project" />
                     </div>
                   </div>
                 </div>
@@ -129,7 +129,7 @@ const Projects = () => {
                   </div>
 
                   <div className="flex flex-1 justify-center items-center [container-type:inline-size] max-lg:py-6 lg:pb-2">
-                    <Image src={WW} className="w-3/4  object-contain object-left bg-no-repeat" />
+                    <Image src={WW} className="w-3/4  object-contain object-left bg-no-repeat"  alt="project"/>
                   </div>
                 </div>
                 <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-b-[2rem] lg:rounded-[0.25rem]"></div>
@@ -146,7 +146,7 @@ const Projects = () => {
                   </div>
                   <div className="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
                     <div className="absolute inset-x-10 bottom-0 top-10 overflow-hidden  bg-transparent shadow-2xl">
-                      <Image src={Pulse} className="w-full h-full object-cover object-left bg-no-repeat" />
+                      <Image src={Pulse} className="w-full h-full object-cover object-left bg-no-repeat" alt="project"/>
                     </div>
                   </div>
                 </div>

@@ -48,7 +48,7 @@ const Banner: React.FC<BannerProps> = ({ backgroundColor, textColor }) => {
       </div>
       <div className="py-1" >
      
-            <Image  src={Arvind} width="300" height="500" />
+            <Image  src={Arvind} width="300" height="500" alt="dev"/>
           
         {/* <Image width={"650"} src={BannerImage} className="hidden md:block" alt="Developer" /> */}
       </div>

@@ -54,7 +54,7 @@ const Experience = () => {
               <li className="relative mb-6 sm:mb-0">
                 <div className="flex items-center">
                   <div className="z-10 flex items-center justify-center w-24 h-24 bg-transparent-100 rounded-full  rounded-md ring-0 ring-white dark:bg-blue-900 sm:ring-8 shrink-0">
-                    <Image src={each.logo} className="w-full h-full" />
+                    <Image src={each.logo} className="w-full h-full" alt="logo" />
                   </div>
                   {index < EXPERIENCE.length - 1 && <div className="hidden w-96 sm:flex  bg-gray-200 h-0.5 dark:bg-gray-700"></div>}
                 </div>
