@@ -55,7 +55,7 @@ const Experience = () => {
             return (
               <li key={index} className="relative mb-6 sm:mb-0">
                 <div className="flex items-center">
-                  <div className="z-10 flex items-center justify-center w-24 h-24 bg-transparent-100 rounded-md ring-0 ring-amber-200 sm:ring-8 shrink-0">
+                  <div className="z-10 flex items-center justify-center w-24 h-24 bg-transparent-100 rounded-md ring-0 ring-yellow-700 sm:ring-8 shrink-0">
                     <Image src={each.logo} width="100" height="100" className="w-full h-full" alt="logo" />
                   </div>
                   {index < EXPERIENCE.length - 1 && <div className="hidden w-56 sm:flex  bg-gray-200 h-0.5 dark:bg-gray-700"></div>}
@@ -64,7 +64,7 @@ const Experience = () => {
                   <h3 className="text-lg font-semibold">{each.title}</h3>
                   <h3 className="text-lg mt-4">{each.company}</h3>
                   <time className="block mb-2 mt-4 text-sm font-normal leading-none">{`📍 ${each.location}`}</time>
-                  <p className="text-base mt-4 font-bold">Nov,2021 - Present</p>
+                  <p className="text-base mt-4 font-bold">{each.period}</p>
                   <a href={each.url.link} className="text-base underline font-normal mt-4 ">
                     {each.url.text}
                   </a>
