@@ -21,7 +21,7 @@ const Navbar: React.FC<NavbarProps> = ({ backgroundColor, textColor, title }) =>
     <nav className="flex  top-0 justify-between bg-gradient-to-r from-orange-200 to-purple-300 ">
       <h1
         onClick={() => {
-          window.location.href = "https:www.arvindthoppe.in";
+          window.location.reload();
         }}
         className="text-black text-2xl uppercase font-medium ml-32 my-6 hover:cursor-pointer"
       >
