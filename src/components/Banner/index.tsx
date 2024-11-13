@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import Arvind from "../../../public/arvind2.png";
 
 interface BannerProps {
   backgroundColor?: string;
@@ -27,27 +26,30 @@ const Banner: React.FC<BannerProps> = () => {
           index: currentTitle.index + 1,
         });
       }
-    }, 4000);
+    }, 8000);
 
     return () => {
       clearTimeout(id);
     };
   }, [currentTitle]);
 
-  return (
-    <div className="flex justify-between items-center mx-48">
-      <div className="flex-column w-1/2 ">
-        <div className="w-max">
-          <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black pr-5 text-3xl text-black uppercase"> {currentTitle.text}</h1>
-        </div>
-        <h6 className=" text-xl my-4">📍 Dubai,United Arab Emirates</h6>
-        <h6 className=" text-xl my-4 leading-loose">I enjoy the process of writing code that enhances the experience of humans behind the pixels.More importantly, I like the tingle that this process bring along to my day :)</h6>
-      </div>
-      <div className="py-1">
-        <Image src={Arvind} width="300" height="500" alt="dev" />
+  // 
 
-        {/* <Image width={"650"} src={BannerImage} className="hidden md:block" alt="Developer" /> */}
+  return (
+    <div className="flex flex-col text-black justify-center items-center  h-screen w-full bg-gradient-to-r from-orange-100 to-purple-300">
+      <h1 className=" text-6xl text-black uppercase my-12">{`Hello ! I am Arvind :)`}</h1>
+      <div className="flex-column w-1/3  ">
+        <div className="w-max">
+          <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-3xl text-black uppercase"> {currentTitle.text}</h1>
+        </div>
+        <h6 className=" text-xl my-8">📍 Dubai,United Arab Emirates</h6>
+        <h6 className=" text-xl my-4 leading-loose">
+           I enjoy the process of writing code that enhances the experience of humans behind the pixels. More importantly, I like the tingle that this process bring along to my day :)
+        </h6>
       </div>
+      {/* <div className=" rounded-xl  shadow-gray-400 w-72 h-84 shadow-[20px_19px_8px_3px_rgba(234,_179,_8,_0.5)]">
+        <Image src={Arvind} className="w-full h-full rounded-xl" alt="dev" />
+      </div> */}
     </div>
   );
 };

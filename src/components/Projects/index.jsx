@@ -10,9 +10,9 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full flex justify-center items-center">
-      <div className="w-full grid justify-center   grid-cols-1 gap-4">
-        <div className="bg-gray-50 py-24 w-full   sm:py-32">
+    <div id="projects" className="w-full flex justify-center items-center bg-gradient-to-r from-zinc-100 to-zinc-300">
+      <div className="w-full grid justify-center   grid-cols-1 gap-4 ">
+        <div className=" py-24 w-full   sm:py-32">
           <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
             <h2 className="text-center text-base/7 font-semibold text-black">WORK</h2>
             <p className="mx-auto mt-2 max-w-lg text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl">Projects</p>

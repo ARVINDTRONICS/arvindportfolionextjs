@@ -9,7 +9,7 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        georgia: ["var(--font-georgia)"],
+        dmsans: ["var(--font-dmsans)"],
       },
 
       keyframes: {
@@ -32,7 +32,7 @@ const config: Config = {
         }
       },
       animation: {
-        typing: "typing 2s steps(20) infinite alternate, blink 4s infinite"
+        typing: "typing 4s steps(30) infinite alternate, blink 4s infinite"
       }
    
     },

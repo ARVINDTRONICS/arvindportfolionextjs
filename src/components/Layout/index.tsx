@@ -18,7 +18,7 @@ const Layout = ({ title = "Arvind Kumar Thoppe" }) => {
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <header className=" mx-auto w-full  ">
+        <header className=" mx-auto w-full   ">
           <Navbar />
           <Banner />
         </header>
@@ -30,12 +30,12 @@ const Layout = ({ title = "Arvind Kumar Thoppe" }) => {
           <Testimonials />
         </main>
 
-        <footer className="w-full bg-white dark:bg-gray-150">
+        <footer className="w-full bg-gradient-to-r from-yellow-50 to-amber-300">
           <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
             <div className="sm:flex sm:items-center sm:justify-between">
-              <span className="text-sm text-gray-800 sm:text-center dark:text-gray-400">
+              <span className="text-sm text-black sm:text-center ">
                 © {new Date().getFullYear()}{" "}
-                <a target="_blank" href="https://www.arvindthoppe.in/" className="hover:underline">
+                <a target="_blank" href="https://www.arvindthoppe.in/" className="hover:underline text-black">
                   arvindthoppe.in
                 </a>
                 . All Rights Reserved.

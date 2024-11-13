@@ -4,6 +4,7 @@ import JumeirahLogo from "../../../public/jumeirah_logo.jpeg";
 import CrayonDataLogo from "../../../public/crayondata_logo.jpeg";
 import TCSLogo from "../../../public/tata_consultancy_services_logo.jpeg";
 import DevImage from "../../../public/winner.webp";
+import Arvind from "../../../public/arvind.jpeg";
 
 const EXPERIENCE = [
   {
@@ -44,10 +45,11 @@ const EXPERIENCE = [
 
 const Experience = () => {
   return (
-    <div id="experience" className="flex flex-col w-full  bg-gray-50 items-center my-32 ">
-      <div className="w-4/5 flex justify-center rounded-md items-center  h-full">
-       
-
+    <div id="experience" className="flex  w-full py-32 justify-center items-center ">
+      <div className=" shadow-gray-400 w-72 h-full shadow-[5px_10px_8px_3px_rgba(234,_179,_8,_0.5)] mr-12">
+        <Image src={Arvind} className="w-full h-full " alt="dev" />
+      </div>
+      <div className="w-1/2 flex justify-center rounded-md items-center  py-12 ">
         <ol className="items-center sm:flex">
           {EXPERIENCE.map((each, index) => {
             return (
@@ -56,7 +58,7 @@ const Experience = () => {
                   <div className="z-10 flex items-center justify-center w-24 h-24 bg-transparent-100 rounded-full  rounded-md ring-0 ring-white dark:bg-blue-900 sm:ring-8 shrink-0">
                     <Image src={each.logo} className="w-full h-full" alt="logo" />
                   </div>
-                  {index < EXPERIENCE.length - 1 && <div className="hidden w-96 sm:flex  bg-gray-200 h-0.5 dark:bg-gray-700"></div>}
+                  {index < EXPERIENCE.length - 1 && <div className="hidden w-64 sm:flex  bg-gray-200 h-0.5 dark:bg-gray-700"></div>}
                 </div>
                 <div className="mt-3 sm:pe-8">
                   <h3 className="text-lg font-semibold">{each.title}</h3>
@@ -72,6 +74,7 @@ const Experience = () => {
           })}
         </ol>
       </div>
+      
     </div>
   );
 };

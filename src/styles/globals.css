@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background:  #f9fafb;
+  --background: #f9fafb;
   --foreground: #171717;
 }
 /* 
@@ -17,17 +17,15 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "Noto Sans Georgian";
+  font-family: "DM Sans";
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  scroll-behavior: smooth ;
- 
-margin:0;
-padding: 0;
-  box-sizing: border-box;
-  
+  scroll-behavior: smooth;
 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -36,6 +34,6 @@ padding: 0;
 
 /* Hide scrollbar for IE, Edge and Firefox */
 body {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
