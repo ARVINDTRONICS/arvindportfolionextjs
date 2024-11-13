@@ -12,7 +12,7 @@ const dmsans = DM_Sans({
 
 export default function Home() {
   return (
-    <div className="font-dmsans">
+    <div className={`${dmsans.variable}`}>
       <Layout></Layout>
     </div>
   );
