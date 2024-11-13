@@ -1,32 +1,21 @@
 import React from "react";
-import Image from "next/image";
-import Monitor from "../../../public/Monitor.png";
-import Phone from "../../../public/phone.png";
-import Database from "../../../public/database.jpg";
-import Server from "../../../public/server.jpg";
-import Cloud from "../../../public/cloud.jpg";
 
 const SKILLS = {
   WEB_SKILLS: {
     list: ["HTML", "CSS", "JAVASCRIPT", "REACTJS", "REDUX", "NEXTJS", "Jest", "Mocha", "tailwindCSS"],
-    image: Monitor,
   },
   MOBILE_SKILLS: {
     list: ["React Native"],
-    image: Phone,
   },
   BACKEND_SKILLS: {
     list: ["Node.js", "ExpressJS"],
-    image: Server,
   },
   DATABASE_SKILLS: {
     list: ["SQL", "MongoDB", "Mongoose", "GRAPHQL"],
-    image: Database,
   },
 
   OTHER_SKILLS: {
     list: ["Agile", "Git", "REST", "Shopify", "Azure", "System Design", "Sitecore CMS"],
-    image: Cloud,
   },
 };
 
