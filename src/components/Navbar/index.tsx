@@ -18,8 +18,15 @@ const NAV_LINKS = [
 
 const Navbar: React.FC<NavbarProps> = ({ backgroundColor, textColor, title }) => {
   return (
-    <nav className="flex justify-between bg-gradient-to-r from-orange-100 to-purple-300">
-      <h1 className="text-black text-2xl uppercase font-medium ml-32 my-6 ">Arvind Kumar Thoppe</h1>
+    <nav className="flex  top-0 justify-between bg-gradient-to-r from-orange-200 to-purple-300 ">
+      <h1
+        onClick={() => {
+          window.location.href = "https:www.arvindthoppe.in";
+        }}
+        className="text-black text-2xl uppercase font-medium ml-32 my-6 hover:cursor-pointer"
+      >
+        Arvind Kumar Thoppe
+      </h1>
       <div className="mx-6 my-6 text-black flex justify-evenly w-1/2">
         {NAV_LINKS.map((eachLink) => {
           return (

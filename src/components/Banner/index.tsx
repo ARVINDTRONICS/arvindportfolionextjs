@@ -36,9 +36,9 @@ const Banner: React.FC<BannerProps> = () => {
   // 
 
   return (
-    <div className="flex flex-col text-black justify-center items-center  h-screen w-full bg-gradient-to-r from-orange-100 to-purple-300">
+    <div className="flex flex-col text-black justify-center items-center  h-screen w-full bg-gradient-to-r from-orange-200 to-purple-300">
       <h1 className=" text-6xl text-black uppercase my-12">{`Hello ! I am Arvind :)`}</h1>
-      <div className="flex-column w-1/3  ">
+      <div className="flex-column w-1/3 ">
         <div className="w-max">
           <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-3xl text-black uppercase"> {currentTitle.text}</h1>
         </div>

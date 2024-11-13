@@ -32,8 +32,12 @@ const SKILLS = {
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full flex py-12 items-center justify-center bg-gradient-to-r from-orange-100 to-purple-300">
+    <div id="skills" className="w-full flex py-12 items-center justify-center bg-white">
       <div className="container relative flex flex-col justify-between  max-w-6xl px-10 mx-auto xl:px-0">
+        <div className="my-12">
+          <p className="text-lg text-center font-medium text-gray-600 font-pj">Tools of the trade </p>
+          <h2 className="mt-4 text-3xl text-center font-bold text-gray-900 sm:text-4xl xl:text-5xl font-pj">Skills</h2>
+        </div>
         <div className="w-full">
           <div className="flex flex-col w-full mb-10 sm:flex-row">
             <div className="w-full mb-10 sm:mb-0 sm:w-1/2">

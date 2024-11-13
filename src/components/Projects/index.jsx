@@ -10,12 +10,12 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full flex justify-center items-center bg-gradient-to-r from-zinc-100 to-zinc-300">
+    <div id="projects" className="w-full flex justify-center items-center bg-gradient-to-r z-50 from-green-50 to-zinc-200">
       <div className="w-full grid justify-center   grid-cols-1 gap-4 ">
         <div className=" py-24 w-full   sm:py-32">
           <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
-            <h2 className="text-center text-base/7 font-semibold text-black">WORK</h2>
-            <p className="mx-auto mt-2 max-w-lg text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl">Projects</p>
+          <p className="text-lg text-center font-medium text-gray-600 font-pj">Enough Talk. Show me what you got </p>
+          <h2 className="mt-4 text-3xl text-center font-bold text-gray-900 sm:text-4xl xl:text-5xl font-pj">Projects</h2>
 
             <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-4">
              

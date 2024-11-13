@@ -18,12 +18,12 @@ const Layout = ({ title = "Arvind Kumar Thoppe" }) => {
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <header className=" mx-auto w-full   ">
+        <header className=" mx-auto w-full  fixed z-50 ">
           <Navbar />
-          <Banner />
         </header>
 
-        <main className="w-full mx-auto">
+        <main className="w-full mx-auto ">
+          <Banner />
           <Skills />
           <Experience />
           <Projects />

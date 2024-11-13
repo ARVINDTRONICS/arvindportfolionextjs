@@ -5,7 +5,7 @@ import CrayonDataLogo from "../../../public/crayondata_logo.jpeg";
 const Testimonials = () => {
   return (
     <>
-      <section id="testimonials" className="py-12 bg-gradient-to-r from-yellow-50 to-amber-100 sm:py-16 lg:py-20">
+      <section id="testimonials" className="py-12 bg-gradient-to-r from-yellow-50 to-amber-50 sm:py-16 lg:py-20">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex flex-col items-center">
             <div className="text-center">
