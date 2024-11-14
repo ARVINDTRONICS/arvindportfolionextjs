@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import CrayonDataLogo from "../../../public/crayondata_logo.jpeg";
+import Waseem from "../../../public/waseem.png";
+import Suresh from "../../../public/Suresh-1.png";
+import Woman from "../../../public/placeholder-woman.jpg";
+
 
 const Testimonials = () => {
   return (
@@ -50,7 +53,8 @@ const Testimonials = () => {
                     </div>
 
                     <div className="flex items-center mt-8">
-                      <img className="flex-shrink-0 object-cover rounded-full w-11 h-11" src="https://crayondata.ai/wp-content/uploads/Mudassar-Waseem.png" alt="" />
+                      <Image className="flex-shrink-0 object-cover rounded-full w-11 h-11" 
+                      src={Waseem} alt="person-image" />
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">Mudassar Waseem</p>
                         <p className="mt-0.5 text-sm font-pj text-gray-600">VP @ Crayon Data</p>
@@ -92,7 +96,7 @@ const Testimonials = () => {
                       <img
                         className="flex-shrink-0 object-cover rounded-full w-11 h-11"
                         src="https://media.licdn.com/dms/image/v2/C5103AQEqnSTUTloJ4Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1576176936216?e=1736380800&v=beta&t=BWB3iwuqJjr70LJ6MyIHCdlG0eXuSXdivBwndFpT6O0"
-                        alt=""
+                        alt="person-image" 
                       />
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">Jayaprakash Elavarasan</p>
@@ -129,7 +133,7 @@ const Testimonials = () => {
                     </div>
 
                     <div className="flex items-center mt-8">
-                      <img className="flex-shrink-0 object-cover rounded-full w-11 h-11" src="https://crayondata.ai/wp-content/uploads/Suresh-1.png" alt="" />
+                      <Image className="flex-shrink-0 object-cover rounded-full w-11 h-11" src={Suresh} alt="" />
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">Suresh Sankar</p>
                         <p className="mt-0.5 text-sm font-pj text-gray-600">Founder and CEO  @ Crayon Data </p>
@@ -245,9 +249,9 @@ const Testimonials = () => {
                     </div>
 
                     <div className="flex items-center mt-8">
-                      <img
+                      <Image
                         className="flex-shrink-0 object-cover rounded-full w-11 h-11"
-                        src="https://media.istockphoto.com/id/2062236772/vector/default-avatar-profile-icon-grey-photo-placeholder-female-no-photo-images-for-unfilled-user.jpg?s=612x612&w=0&k=20&c=k89Udc50y4K9hik9ZYBDz0gVsCzSeXgPcTRBN5aPy94="
+                        src={Woman}
                         alt=""
                       />
                       <div className="ml-4">
