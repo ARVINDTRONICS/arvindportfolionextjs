@@ -30,7 +30,7 @@ const Navbar: React.FC<NavbarProps> = ({ backgroundColor, textColor, title }) =>
           onClick={() => {
             window.location.reload();
           }}
-          className=" text-black  text-md text-center lg:text-left my-2 lg:text-2xl lg:ml-24 lg:my-6 uppercase font-medium   hover:cursor-pointer "
+          className=" text-black  text-xl text-center lg:text-left my-2 lg:text-2xl lg:ml-24 lg:my-6 uppercase font-medium   hover:cursor-pointer "
         >
           Arvind Kumar Thoppe
         </h1>

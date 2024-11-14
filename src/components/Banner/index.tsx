@@ -42,7 +42,7 @@ const Banner: React.FC<BannerProps> = () => {
         <div className="w-max">
           <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-xl lg:text-3xl text-black uppercase"> {currentTitle.text}</h1>
         </div>
-        <h6 className=" text-xl my-8">📍 Dubai,United Arab Emirates</h6>
+        <h4 className=" text-xl my-8">📍 Dubai,United Arab Emirates</h4>
         <h6 className=" text-xl my-4 leading-loose">
            I enjoy the process of writing code that enhances the experience of humans behind the pixels. More importantly, I like the tingle that this process bring along to my day :)
         </h6>

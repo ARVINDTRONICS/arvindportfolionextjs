@@ -53,25 +53,23 @@ const Experience = () => {
         <ol className="w-full flex justify-around lg:justify-center items-center ">
           {EXPERIENCE.map((each, index) => {
             return (
-              <div>
-                <li key={index} className="relative mb-6 sm:mb-0  lg:mx-0 ">
-                  <div className="flex items-center">
-                    <div className="z-10 flex items-center justify-center w-24 h-24 bg-transparent-100 rounded-md ring-0 ring-yellow-700 sm:ring-8 shrink-0">
-                      <Image src={each.logo} className="w-16 h-16 lg:w-24 lg:h-24" alt="logo" />
-                    </div>
-                    {index < EXPERIENCE.length - 1 && <div className="hidden w-56 sm:flex  bg-gray-200 h-0.5 dark:bg-gray-700"></div>}
+              <li key={index} className="relative mb-6 sm:mb-0  lg:mx-0 ">
+                <div className="flex items-center">
+                  <div className="z-10 flex items-center justify-center w-24 h-24 bg-transparent-100 rounded-md ring-0 ring-yellow-700 sm:ring-8 shrink-0">
+                    <Image src={each.logo} className="w-16 h-16 lg:w-24 lg:h-24" alt="logo" />
                   </div>
-                  <div className="mt-3 sm:pe-8 ">
-                    <h3 className="text-xs lg:text-lg font-semibold">{each.title}</h3>
-                    <h3 className="text-xs lg:text-lg mt-4">{each.company}</h3>
-                    <time className="block mb-2 mt-4 text-xs lg:text-base font-normal leading-none">{`📍 ${each.location}`}</time>
-                    <p className="text-xs lg:text-base mt-4 font-bold">{each.period}</p>
-                    <a href={each.url.link} className="text-xs lg:text-base underline font-normal mt-4 ">
-                      {each.url.text}
-                    </a>
-                  </div>
-                </li>
-              </div>
+                  {index < EXPERIENCE.length - 1 && <div className="hidden w-56 sm:flex  bg-gray-200 h-0.5 dark:bg-gray-700"></div>}
+                </div>
+                <div className="mt-3 sm:pe-8 ">
+                  <h3 className="text-xs lg:text-lg font-semibold">{each.title}</h3>
+                  <h3 className="text-xs lg:text-lg mt-4">{each.company}</h3>
+                  <time className="block mb-2 mt-4 text-xs lg:text-base font-normal leading-none">{`📍 ${each.location}`}</time>
+                  <p className="text-xs lg:text-base mt-4 font-bold">{each.period}</p>
+                  <a href={each.url.link} className="text-xs lg:text-base underline font-normal mt-4 ">
+                    {each.url.text}
+                  </a>
+                </div>
+              </li>
             );
           })}
         </ol>
