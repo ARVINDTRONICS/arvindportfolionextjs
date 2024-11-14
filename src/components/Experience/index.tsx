@@ -46,7 +46,7 @@ const EXPERIENCE = [
 const Experience = () => {
   return (
     <div id="experience" className="flex flex-col lg:flex-row bg-gray-50 w-full py-8 lg:py-24 justify-evenly items-center z-10">
-      <div className=" shadow-gray-400 w-2/3 lg:w-72 h-full shadow-[5px_10px_8px_3px_rgba(234,_179,_8,_0.5)]  ">
+      <div className=" shadow-gray-400 w-64 lg:w-72 h-full shadow-[5px_10px_8px_3px_rgba(234,_179,_8,_0.5)]  ">
         <Image src={Arvind} className="w-full h-full " alt="dev" />
       </div>
       <div className="w-full lg:w-3/5 flex   lg:justify-center rounded-md items-center  py-10 ">
