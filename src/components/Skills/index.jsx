@@ -21,7 +21,7 @@ const SKILLS = {
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full flex py-12 items-center justify-center bg-white">
+    <div id="skills" className="w-full flex py-4 lg:py-12 items-center justify-center bg-white">
       <div className="container relative flex flex-col justify-between  max-w-6xl px-10 mx-auto xl:px-0">
         <div className="my-12">
           <p className="text-lg text-center font-medium text-gray-600 font-pj">Tools of the trade </p>

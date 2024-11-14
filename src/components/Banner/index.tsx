@@ -36,11 +36,11 @@ const Banner: React.FC<BannerProps> = () => {
   // 
 
   return (
-    <div className="flex flex-col text-black justify-center items-center  h-screen w-full bg-gradient-to-r from-orange-200 to-purple-300">
-      <h1 className=" text-6xl text-black uppercase my-12">{`Hello ! I am Arvind :)`}</h1>
-      <div className="flex-column w-1/3 ">
+    <div className="flex flex-col px-8 pt-48 text-black lg:justify-center lg:items-center  h-screen w-full bg-gradient-to-r from-orange-200 to-purple-300">
+      <h1 className="text-xl w-full lg:text-6xl text-black uppercase my-12 lg:text-center">{`Hello ! I am Arvind :)`}</h1>
+      <div className="flex-column w-full lg:w-1/3 ">
         <div className="w-max">
-          <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-3xl text-black uppercase"> {currentTitle.text}</h1>
+          <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-xl lg:text-3xl text-black uppercase"> {currentTitle.text}</h1>
         </div>
         <h6 className=" text-xl my-8">📍 Dubai,United Arab Emirates</h6>
         <h6 className=" text-xl my-4 leading-loose">

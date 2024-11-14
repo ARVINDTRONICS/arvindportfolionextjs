@@ -53,7 +53,7 @@ const Testimonials = () => {
                       <img className="flex-shrink-0 object-cover rounded-full w-11 h-11" src="https://crayondata.ai/wp-content/uploads/Mudassar-Waseem.png" alt="" />
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">Mudassar Waseem</p>
-                        <p className="mt-0.5 text-sm font-pj text-gray-600">VP, Program Management</p>
+                        <p className="mt-0.5 text-sm font-pj text-gray-600">VP @ Crayon Data</p>
                       </div>
                     </div>
                   </div>
@@ -96,7 +96,7 @@ const Testimonials = () => {
                       />
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">Jayaprakash Elavarasan</p>
-                        <p className="mt-0.5 text-sm font-pj text-gray-600">UI Engineer</p>
+                        <p className="mt-0.5 text-sm font-pj text-gray-600">UI Engineer @ Crayon Data</p>
                       </div>
                     </div>
                   </div>
@@ -132,7 +132,7 @@ const Testimonials = () => {
                       <img className="flex-shrink-0 object-cover rounded-full w-11 h-11" src="https://crayondata.ai/wp-content/uploads/Suresh-1.png" alt="" />
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">Suresh Sankar</p>
-                        <p className="mt-0.5 text-sm font-pj text-gray-600">Founder and CEO</p>
+                        <p className="mt-0.5 text-sm font-pj text-gray-600">Founder and CEO  @ Crayon Data </p>
                       </div>
                     </div>
                   </div>
@@ -172,7 +172,7 @@ const Testimonials = () => {
                       />
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">Lipak Prusty</p>
-                        <p className="mt-0.5 text-sm font-pj text-gray-600">Delivery Head</p>
+                        <p className="mt-0.5 text-sm font-pj text-gray-600">Delivery Head  @ TCS</p>
                       </div>
                     </div>
                   </div>
@@ -200,7 +200,7 @@ const Testimonials = () => {
                       </div>
 
                       <blockquote className="flex-1 mt-8">
-                        <p className="text-sm leading-relaxed text-gray-900 font-pj">“Outstanding performance and lasting contribution to the Mobile Banking QA Team”</p>
+                        <p className="text-sm leading-relaxed text-gray-900 font-pj">“Outstanding performance and lasting contribution to the Mobile Banking  Team”</p>
                       </blockquote>
                     </div>
 
@@ -212,7 +212,7 @@ const Testimonials = () => {
                       />
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">Chakri Kotcherlakota</p>
-                        <p className="mt-0.5 text-sm font-pj text-gray-600">SVP, Bank Of America</p>
+                        <p className="mt-0.5 text-sm font-pj text-gray-600">SVP @ Bank Of America</p>
                       </div>
                     </div>
                   </div>
@@ -240,7 +240,7 @@ const Testimonials = () => {
                       </div>
 
                       <blockquote className="flex-1 mt-8">
-                        <p className="text-sm leading-relaxed text-gray-900 font-pj">"Applause Award 🏅 for Excellent execution and he is always ready to take on new challenges"</p>
+                        <p className="text-sm leading-relaxed text-gray-900 font-pj">"Applause Award 🏅 for Excellent execution in client delivery and he is always ready to take on new challenges"</p>
                       </blockquote>
                     </div>
 
@@ -252,7 +252,7 @@ const Testimonials = () => {
                       />
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">Yamini</p>
-                        <p className="mt-0.5 text-sm font-pj text-gray-600">Offshore Project Manager</p>
+                        <p className="mt-0.5 text-sm font-pj text-gray-600">Offshore Project Manager @ TCS</p>
                       </div>
                     </div>
                   </div>

@@ -18,7 +18,7 @@ const Layout = ({ title = "Arvind Kumar Thoppe" }) => {
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <header className=" mx-auto w-full  fixed z-50 ">
+        <header className=" mx-auto w-full  fixed top-0 z-50 ">
           <Navbar />
         </header>
 
@@ -30,7 +30,7 @@ const Layout = ({ title = "Arvind Kumar Thoppe" }) => {
           <Testimonials />
         </main>
 
-        <footer className="w-full bg-gradient-to-r from-yellow-50 to-amber-300">
+        <footer className="w-full bg-gradient-to-r from-yellow-50 to-amber-300 ">
           <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
             <div className="sm:flex sm:items-center sm:justify-between">
               <span className="text-sm text-black sm:text-center ">
