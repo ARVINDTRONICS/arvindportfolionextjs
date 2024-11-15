@@ -26,7 +26,7 @@ const Banner: React.FC<BannerProps> = () => {
           index: currentTitle.index + 1,
         });
       }
-    }, 8000);
+    }, 4000);
 
     return () => {
       clearTimeout(id);
