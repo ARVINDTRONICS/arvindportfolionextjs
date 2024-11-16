@@ -3,6 +3,9 @@ import Image from "next/image";
 import Waseem from "../../../public/waseem.png";
 import Suresh from "../../../public/Suresh-1.png";
 import Woman from "../../../public/placeholder-woman.jpg";
+import Lipak from "../../../public/lipak.jpeg";
+import JP from "../../../public/jp.jpeg";
+import Chakri from "../../../public/chakri.jpeg";
 
 
 const Testimonials = () => {
@@ -93,11 +96,8 @@ const Testimonials = () => {
                     </div>
 
                     <div className="flex items-center mt-8">
-                      <img
-                        className="flex-shrink-0 object-cover rounded-full w-11 h-11"
-                        src="https://media.licdn.com/dms/image/v2/C5103AQEqnSTUTloJ4Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1576176936216?e=1736380800&v=beta&t=BWB3iwuqJjr70LJ6MyIHCdlG0eXuSXdivBwndFpT6O0"
-                        alt="person-image" 
-                      />
+                    <Image className="flex-shrink-0 object-cover rounded-full w-11 h-11" 
+                      src={JP} alt="person-image" />
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">Jayaprakash Elavarasan</p>
                         <p className="mt-0.5 text-sm font-pj text-gray-600">UI Engineer @ Crayon Data</p>
@@ -169,11 +169,8 @@ const Testimonials = () => {
                     </div>
 
                     <div className="flex items-center mt-8">
-                      <img
-                        className="flex-shrink-0 object-cover rounded-full w-11 h-11"
-                        src="https://media.licdn.com/dms/image/v2/C4D03AQG2CgvO9rL45w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516785221001?e=1736380800&v=beta&t=IjxGAnWZGKezDlViuUkrLcqM-vdWbZQXduGbT-XtFW4"
-                        alt="person-image"
-                      />
+                    <Image className="flex-shrink-0 object-cover rounded-full w-11 h-11" 
+                      src={Lipak} alt="person-image" />
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">Lipak Prusty</p>
                         <p className="mt-0.5 text-sm font-pj text-gray-600">Delivery Head  @ TCS</p>
@@ -209,11 +206,8 @@ const Testimonials = () => {
                     </div>
 
                     <div className="flex items-center mt-8">
-                      <img
-                        className="flex-shrink-0 object-cover rounded-full w-11 h-11"
-                        src="https://media.licdn.com/dms/image/v2/C5603AQFHdjnEF02XXQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1526075115198?e=1736380800&v=beta&t=r2Q9e0D4WhNnXi1m6hKN4AkgEM_Enc05aYONg7zaotI"
-                        alt="person-image"
-                      />
+                    <Image className="flex-shrink-0 object-cover rounded-full w-11 h-11" 
+                      src={Chakri} alt="person-image" />
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">Chakri Kotcherlakota</p>
                         <p className="mt-0.5 text-sm font-pj text-gray-600">SVP @ Bank Of America</p>
