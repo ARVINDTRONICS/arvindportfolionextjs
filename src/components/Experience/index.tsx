@@ -65,7 +65,7 @@ const Experience = () => {
                   <h3 className="text-xs lg:text-lg mt-4">{each.company}</h3>
                   <time className="block mb-2 mt-4 text-xs lg:text-base font-normal leading-none">{`📍 ${each.location}`}</time>
                   <p className="text-xs lg:text-base mt-4 font-bold">{each.period}</p>
-                  <a href={each.url.link} className="text-xs lg:text-base underline font-normal mt-4 ">
+                  <a  href={each.url.link} className="text-xs lg:text-base underline font-normal mt-4 " >
                     {each.url.text}
                   </a>
                 </div>

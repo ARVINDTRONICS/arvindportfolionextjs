@@ -172,7 +172,7 @@ const Testimonials = () => {
                       <img
                         className="flex-shrink-0 object-cover rounded-full w-11 h-11"
                         src="https://media.licdn.com/dms/image/v2/C4D03AQG2CgvO9rL45w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516785221001?e=1736380800&v=beta&t=IjxGAnWZGKezDlViuUkrLcqM-vdWbZQXduGbT-XtFW4"
-                        alt=""
+                        alt="person-image"
                       />
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">Lipak Prusty</p>
@@ -212,7 +212,7 @@ const Testimonials = () => {
                       <img
                         className="flex-shrink-0 object-cover rounded-full w-11 h-11"
                         src="https://media.licdn.com/dms/image/v2/C5603AQFHdjnEF02XXQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1526075115198?e=1736380800&v=beta&t=r2Q9e0D4WhNnXi1m6hKN4AkgEM_Enc05aYONg7zaotI"
-                        alt=""
+                        alt="person-image"
                       />
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">Chakri Kotcherlakota</p>
