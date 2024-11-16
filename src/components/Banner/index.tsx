@@ -33,7 +33,7 @@ const Banner: React.FC<BannerProps> = () => {
     };
   }, [currentTitle]);
 
-  // 
+  //
 
   return (
     <div className="flex flex-col px-8 pt-48 text-black lg:justify-center lg:items-center  h-screen w-full bg-gradient-to-r from-orange-200 to-purple-300">
@@ -43,13 +43,8 @@ const Banner: React.FC<BannerProps> = () => {
           <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-xl lg:text-3xl text-black uppercase"> {currentTitle.text}</h1>
         </div>
         <h2 className=" text-xl my-8">📍 Dubai,United Arab Emirates</h2>
-        <h3 className=" text-xl my-4 leading-loose">
-           I enjoy the process of writing code that enhances the experience of humans behind the pixels. More importantly, I like the tingle that this process bring along to my day :)
-        </h3>
+        <h3 className=" text-xl my-4 leading-loose">I enjoy the process of writing code that enhances the experience of humans behind the pixels. More importantly, I like the tingle that this process brings along to my day :)</h3>
       </div>
-      {/* <div className=" rounded-xl  shadow-gray-400 w-72 h-84 shadow-[20px_19px_8px_3px_rgba(234,_179,_8,_0.5)]">
-        <Image src={Arvind} className="w-full h-full rounded-xl" alt="dev" />
-      </div> */}
     </div>
   );
 };
