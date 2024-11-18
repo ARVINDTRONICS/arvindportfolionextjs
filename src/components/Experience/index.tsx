@@ -15,7 +15,7 @@ const EXPERIENCE = [
       text: "tcs.com",
     },
     title: "Systems Engineer",
-    company: "Tata Consultancy Services",
+    company: "TCS",
     period: " Dec,2017 - Feb,2020",
   },
 
@@ -50,10 +50,10 @@ const Experience = () => {
         <Image src={Arvind} className="w-full h-full " alt="dev" />
       </div>
       <div className="w-full lg:w-3/5 flex   lg:justify-center rounded-md items-center  py-10 ">
-        <ol className="w-full flex justify-around lg:justify-center items-center ">
+        <ol className="w-full flex justify-around lg:justify-center items-center px-2">
           {EXPERIENCE.map((each, index) => {
             return (
-              <li key={index} className="relative mb-6 sm:mb-0  lg:mx-0 ">
+              <li key={index} className="relative mb-6 sm:mb-0  lg:mx-0  ">
                 <div className="flex items-center">
                   <div className="z-10 flex items-center justify-center w-24 h-24 bg-transparent-100 rounded-md ring-0 ring-yellow-700 sm:ring-8 shrink-0">
                     <Image src={each.logo} className="w-16 h-16 lg:w-24 lg:h-24" alt="logo" />
